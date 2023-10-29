@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  
 }
 
 body {
@@ -9,58 +10,110 @@ body {
   line-height: 1.5;
 }
 
-.navbar{
-  display:flex;
-  flex-direction: row;
-  justify-content: space-between;
-  
-  }
+header {
+  height: 200px;
+  width: 50%;
+  padding: 100px;
+  border: 1px solid black;
+}
 
-.hero-banner {
+
+#navbar{
   display: flex;
+  flex-direction: row;
+  
+ }
+
+h1 {
+  width: 25%;
+  font-weight: 500;
+}
+
+
+#hero-banner {
   background-image: url("../images/02-hero-bg.jpg");
-  padding: 2px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 50%;
+  display: flex; 
+  }
+.page-section {
+display:flex;
+
 
 }
 
 .page-wrapper {
-  margin 0px 5%;
   display: grid;
-  grid-template-rows: 25% 75%;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 1 fr;
   grid-template-areas: 
-  "about lorem"
-  "work lorem"
-  "contact lorem";
-}
-
-.about{
-
-}
-.work {
-
-}
-.contact{
-
-}
+  "header text"
+  "header work"
+  "header contatct";
+  }
 
 
-h1{
-width: 25%;
-font-weight: 500;
-}
-h2{
-font-family: 'Times New Roman', Times, serif;
-font-size: 45 px;
-text-align: end;
-}
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
+
+
+
+
+
+
+ h2{
+  justify-content:flex-end;
 }
 
-p {
-  margin: 0;
+.about {
+  display:flex;
+  flex-direction: row;
 }
+#contact{
+
+}
+
+
+
+
+
+
+@media only screen and (max-width:10000px)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
